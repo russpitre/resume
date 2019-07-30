@@ -6,7 +6,7 @@ export const FONT_FAMILY_ITALICS = 'IBMPlexSans-Italic';
 export const FONT_FAMILY_BOLD = 'IBMPlexSans-Bold';
 
 Font.register({ family: FONT_FAMILY_SANS, src: '/fonts/plex-sans/IBMPlexSans-Light.ttf' });
-Font.register({ family: FONT_FAMILY_SANS_LIGHT, src: '/fonts/plex-sans/IBMPlexSans-Thin.ttf' });
+Font.register({ family: FONT_FAMILY_SANS_LIGHT, src: '/fonts/plex-sans/IBMPlexSans-Light.ttf' });
 Font.register({ family: FONT_FAMILY_ITALICS, src: '/fonts/plex-sans/IBMPlexSans-Italic.ttf' });
 Font.register({ family: FONT_FAMILY_BOLD, src: '/fonts/plex-sans/IBMPlexSans-Bold.ttf' });
 
