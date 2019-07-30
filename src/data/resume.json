@@ -1,0 +1,227 @@
+{
+  "person": {
+    "name": {
+      "first": "Russell",
+      "last": "Pitre"
+    },
+    "title": "Full Stack Software Developer",
+    "phone": "(617) 834-2644",
+    "email": "rpitre@gmail.com",
+    "address": {
+      "line1": "3 Pine Edge Way",
+      "city": "Hatfield",
+      "state": "MA",
+      "zip": "01038"
+    },
+    "linkedIn": "https://www.linkedin.com/in/russellpitre/",
+    "tagLine": "I'm okay with this stuff.",
+    "summary": "Russell Pitre is a seasoned professional software developer with over 20 years experience developing, delivering, and maintaining effective business applications in the construction and environmental industries. Russell’s specialties are working with business experts to design technical solutions to meet the needs of the business. He has a sense of urgency, is detailed oriented, understands the meaning of client satisfaction, is self-directed and excels at working on his own or as part of a team. He has a deep seeded commitment for the long-term success of the organization he works for and enjoys working with others to accomplish the financial and cultural goals of the organization. He is willing and able to learn new technologies quickly and effectively, is well read and is up to date with current software industry trends."
+  },
+  "education": [
+    {
+      "school": "WentWorth Institute of Technology",
+      "program": "Computer Engineering Technology",
+      "from": "1996",
+      "to": "2000"
+    },
+    {
+      "school": "SOA Systems",
+      "program": "SOACP, SOA Certified Professional",
+      "from": "2010",
+      "to": "2010"
+    }
+  ],
+  "interests": [
+    "Woodworking",
+    "Racquetball",
+    "Biking",
+    "DIY home projects",
+    "Tools",
+    "Gardening"
+  ],
+  "skills": [
+    "Java",
+    "C#",
+    "JavaScript",
+    "React",
+    "React Native",
+    "Spring Framework",
+    ".NET Core",
+    "SQL Server",
+    "Oracle",
+    "Data Integration",
+    "GIS",
+    "Open Layers",
+    "git",
+    "Mercurial",
+    "NodeJS",
+    "Jira",
+    "Continuous Integration",
+    "Gitlab",
+    "JetBrains IDEs",
+    "Eclipse",
+    "UI/UX",
+    "Linux",
+    "CSS",
+    "HTML5",
+    "Docker",
+    "Agile"
+  ],
+  "employers": [
+    {
+      "id": "windsor",
+      "name": "Windsor Solutions, Inc.",
+      "location": "Northampton, MA",
+      "from": "2011",
+      "to": "present",
+      "experience": [
+        {
+          "project": "BeachGuard Management System",
+          "employerId": "windsor",
+          "client": "Ohio Department of Health",
+          "title": "Senior Developer",
+          "summary": "Designed and developed both the public and administrative portions of a mobile ready web-based system for managing the healthy beaches in the state of Ohio.",
+          "skills": [
+            "React",
+            ".NET Core",
+            "REST Services"
+          ],
+          "from": "2018",
+          "to": "Present"
+        },
+        {
+          "project": "nSITE Explorer",
+          "employerId": "windsor",
+          "title": "Senior Developer",
+          "summary": "Designed and developed a mobile ready web-based GIS solution to search and view environmental interest data on a map. nSITE is part of Windsor's integrated environmental data management suite, nVIRO. The nSITE Explorer app has many features including the ability to draw and measure features on the map, search by a variety of data attributes, and others.",
+          "skills": [
+            "Open Layers",
+            "React",
+            ".NET Core",
+            "SQL Server"
+          ],
+          "from": "2018",
+          "to": "Present"
+        },
+        {
+          "project": "nSPECT Mobile",
+          "employerId": "windsor",
+          "title": "Senior Developer",
+          "summary": "Integral development team member of an Android and iOS mobile application designed to work as an offline mobile inspections tool. The nSPECT mobile application is available on both Google Play Store and the Apple App Store.",
+          "skills": [
+            "React Native",
+            "React",
+            "redux",
+            "iOS",
+            "Android"
+          ],
+          "from": "2017",
+          "to": "Present"
+        },
+        {
+          "project": "Solid Waste Division – Recycle Database Management",
+          "employerId": "windsor",
+          "client": "King County Department of Natural Resources and Parks",
+          "title": "Senior Developer",
+          "summary": "Assisted in the development of modernizing the solid waste website to work with current technologies. One of the main areas of focus was making the site mobile friendly.",
+          "skills": [
+            "SQL Server",
+            "C#",
+            "jQuery",
+            "KnockoutJS",
+            "Bootstrap"
+          ],
+          "from": "2016",
+          "to": "2017"
+        },
+        {
+          "project": "Underground Storage Tank System",
+          "employerId": "windsor",
+          "client": "Massachusetts Department of Environmental Protection",
+          "title": "Senior Developer",
+          "summary": "Assisted in the development of a web-based system for tracking underground storage tanks.",
+          "skills": [
+            "Java",
+            "Tomcat Application Server",
+            "Spring Framework",
+            "Hibernate",
+            "Apache Wicket"
+          ],
+          "from": "2014",
+          "to": "2015"
+        },
+        {
+          "project": "Pesticides System",
+          "employerId": "windsor",
+          "client": "New York Department of Environmental Conservation",
+          "title": "Senior Developer",
+          "summary": "Integral development team member of a multi-phase implementation of a web-based system for managing the pesticides program.",
+          "skills": [
+            "Java",
+            "Tomcat Application Server",
+            "Spring Framework",
+            "Hibernate",
+            "Apache Wicket"
+          ],
+          "from": "2012",
+          "to": "2014"
+        },
+        {
+          "project": "Routine Emissions Reporting System",
+          "employerId": "windsor",
+          "client": "New Mexico Environment Department",
+          "title": "Senior Developer",
+          "summary": "Assisted in the development of a web-based routine emissions reporting system.",
+          "skills": [
+            "Oracle",
+            "Java",
+            "Tomcat Application Server",
+            "Spring Framework",
+            "Hibernate",
+            "Apache Wicket"
+          ],
+          "from": "2011",
+          "to": "2012"
+        }
+      ]
+    },
+    {
+      "id": "shawmut",
+      "name": "Shawmut Design and Construction",
+      "location": "Boston, MA",
+      "title": "Senior Developer",
+      "from": "2000",
+      "to": "2011",
+      "experience": [
+        {
+          "project": "ADP HRIS Integration",
+          "title": "Technical Lead",
+          "summary": "Designed and implemented an integration process to synchronize employee information with a third party payroll processing system feeding all internal downstream enterprise systems.",
+          "skills": [
+            "Java",
+            "Spring Framework",
+            "Apache Camel",
+            "SQL Server",
+            "Quartz Scheduler"
+          ],
+          "from": "2009",
+          "to": "2011"
+        },
+        {
+          "project": "Corporate Intranet",
+          "title": "Technical Lead",
+          "summary": "Designed, developed, and implemented the Shawmut Intranet, a core business application used by all Shawmut staff. The Intranet was built from the ground up to serve as an extensible foundation in which to build transactional business applications. The layered based architecture reduces total cost of ownership by promoting high code quality, maintainability and enabling rapid application development. The user interface was designed to have a consistent look and feel, easy to use navigation features, and other impressive UI features.",
+          "skills": [
+            "Java",
+            "Spring Framework",
+            "SQL Server",
+            "Hibernate",
+            "JSP"
+          ],
+          "from": "2005",
+          "to": "2011"
+        }
+      ]
+    }
+  ]
+}
