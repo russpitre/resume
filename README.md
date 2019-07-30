@@ -1,4 +1,4 @@
-# Russell Pitre' Resume 
+# Russell Pitre - Resume 
 
 Hello, this repository is my resume. The resume is a bare-bones ReactJS project 
 that renders a PDF by utilizing the [React-pdf](https://react-pdf.org) package.
