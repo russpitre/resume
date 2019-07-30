@@ -9,6 +9,7 @@ run the project.
 
 ```bash
 > git clone https://github.com/russpitre/resume.git
+> cd resume
 > npm install
 > npm run start
 ```
