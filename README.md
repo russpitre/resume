@@ -8,7 +8,7 @@ run the project.
 ## To view the resume...
 
 ```bash
-> git clone {url_address_here}
+> git clone https://github.com/russpitre/resume.git
 > npm install
 > npm run start
 ```
