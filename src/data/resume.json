@@ -69,11 +69,27 @@
   ],
   "employers": [
     {
+      "id":"csv",
+          "name": "Cognizant Softvision",
+      "location": "Remote",
+      "from": "2021",
+      "to": "present",
+      "experience": [
+        "project":"Discover Financial Services",
+        "client:","Discover Financial Services",
+        "title": "Senior Fullstack Developer",
+        "summary":"Dian ACAPS retirement initiative, role was to pair program with Discover devlopers and to upskill."
+        "skills": [
+            "Spring Boot","Cucumber", "TDD","BDD","Gherkin","React","LernsJs"
+          ]
+      ],
+    },
+    {
       "id": "windsor",
       "name": "Windsor Solutions, Inc.",
       "location": "Northampton, MA",
       "from": "2011",
-      "to": "present",
+      "to": "2021",
       "experience": [
         {
           "project": "BeachGuard Management System",
