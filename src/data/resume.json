@@ -15,7 +15,7 @@
     },
     "linkedIn": "https://www.linkedin.com/in/russellpitre/",
     "tagLine": "I'm okay with this stuff.",
-    "summary": "Russell Pitre is a seasoned professional software developer with over 20 years experience developing, delivering, and maintaining effective business applications in the construction and environmental industries. Russell’s specialties are working with business experts to design technical solutions to meet the needs of the business. He has a sense of urgency, is detailed oriented, understands the meaning of client satisfaction, is self-directed and excels at working on his own or as part of a team. He has a deep seeded commitment for the long-term success of the organization he works for and enjoys working with others to accomplish the financial and cultural goals of the organization. He is willing and able to learn new technologies quickly and effectively, is well read and is up to date with current software industry trends."
+    "summary": "Russell Pitre is a seasoned professional software developer with over 20 years experience developing, delivering, and maintaining effective business applications in the construction, environmental, and financial industries. Russell’s specialties are working with business experts to design technical solutions to meet the needs of the business. He has a sense of urgency, is detailed oriented, understands the meaning of client satisfaction, is self-directed and excels at working on his own or as part of a team. He has a deep seeded commitment for the long-term success of the organization he works for and enjoys working with others to accomplish the financial and cultural goals of the organization. He is willing and able to learn new technologies quickly and effectively, is well read and is up to date with current software industry trends."
   },
   "education": [
     {
@@ -25,19 +25,21 @@
       "to": "2000"
     },
     {
-      "school": "SOA Systems",
-      "program": "SOACP, SOA Certified Professional",
-      "from": "2010",
-      "to": "2010"
+      "school": "Amazon Web Services",
+      "program": "AWS Certified Cloud Practitioner",
+      "from": "2121",
+      "to": "now"
     }
   ],
   "interests": [
     "Woodworking",
     "Racquetball",
     "Biking",
+    "Skiing",
     "DIY home projects",
     "Tools",
-    "Gardening"
+    "Gardening",
+    "Elixir"
   ],
   "skills": [
     "Java",
@@ -45,19 +47,22 @@
     "JavaScript",
     "React",
     "React Native",
-    "Spring Framework",
+    "Spring Boot",
+    "AWS",
     ".NET Core",
     "SQL Server",
-    "Oracle",
+    "RabbitMQ",
+    "Microservices",
     "Data Integration",
     "GIS",
     "Open Layers",
     "git",
-    "Mercurial",
     "NodeJS",
     "Jira",
     "Continuous Integration",
-    "Gitlab",
+    "TDD",
+    "BDD",
+    "Github",
     "JetBrains IDEs",
     "Eclipse",
     "UI/UX",
@@ -69,12 +74,67 @@
   ],
   "employers": [
     {
+      "id": "csv",
+      "name": "Cognizant Softvision",
+      "location": "Remote, US",
+      "from": "2021",
+      "to": "present",
+      "experience": [
+        {
+          "project": "Discover Financial, Inc.",
+          "employerId": "csv",
+          "title": "Senior Developer - Coach",
+          "summary": "Worked as a Senior Developer Coach to \"skill-up\" the software developers on the Credit Operations team by pairing up to demonstrate best coding practices while using the TDD methodology.",
+          "skills": [
+            "Java",
+            "Spring Boot",
+            "Spring Cloud",
+            "RabbitMQ",
+            "React",
+            "TDD",
+            "BDD"
+          ],
+          "from": "2021",
+          "to": "Present"
+        }
+      ]
+    },
+    {
       "id": "windsor",
       "name": "Windsor Solutions, Inc.",
       "location": "Northampton, MA",
       "from": "2011",
-      "to": "present",
+      "to": "2021",
       "experience": [
+        {
+          "project": "nFORM",
+          "employerId": "windsor",
+          "title": "Senior Developer",
+          "summary": "Contributed to the design and development of numerous features to nFORM. nFORM is a system that streamlines the process of permitting, licensing, and certification for the regulated environmental community.",
+          "skills": [
+            "C#",
+            "React",
+            ".NET Core",
+            "SQL Server"
+          ],
+          "from": "2019",
+          "to": "Present"
+        },
+        {
+          "project": "Windsor UI-Kit",
+          "employerId": "windsor",
+          "title": "Senior Developer",
+          "summary": "Designed and developed from the ground up a user interface component library built on React and EmotionJS. The component library is used by various products at Windsor Solutions.",
+          "skills": [
+            "React",
+            "Emotion",
+            "Styled Components",
+            "Storybook",
+            "Webpack"
+          ],
+          "from": "2019",
+          "to": "Present"
+        },
         {
           "project": "BeachGuard Management System",
           "employerId": "windsor",
