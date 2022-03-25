@@ -7,20 +7,21 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prepare": "husky install"
   },
   "dependencies": {
-    "@react-pdf/renderer": "^1.6.3",
-    "prop-types": "^15.7.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "@react-pdf/renderer": "^2.1.1",
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3"
   },
   "devDependencies": {
     "eslint": "^5.16.0",
     "prettier": "1.18.2",
-    "husky": "^3.0.0",
-    "lint-staged": "^9.2.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.7",
     "pretty-quick": "1.11.1",
     "eslint-config-prettier": "6.0.0",
     "eslint-plugin-prettier": "3.1.0",
@@ -32,8 +33,7 @@
   },
   "lint-staged": {
     "*.{js,jsx}": [
-      "prettier-eslint --write",
-      "git add"
+      "prettier-eslint --write"
     ]
   },
   "husky": {

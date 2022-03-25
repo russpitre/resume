@@ -11,14 +11,19 @@ import WorkHistory from "./work-history";
 
 export const styles = StyleSheet.create({
   page: {
+    display: "flex",
     flexDirection: "row"
   },
   leftContainer: {
+    display: "flex",
+    flexDirection: "column",
     width: "35vw",
     padding: SPACING_LARGE,
     backgroundColor: COLOR_BG_PAGE
   },
   rightContainer: {
+    display: "flex",
+    flexDirection: "column",
     width: "65vw",
     padding: SPACING_LARGE
   }
