@@ -4,7 +4,7 @@
       "first": "Russell",
       "last": "Pitre"
     },
-    "title": "Full Stack Software Engineer",
+    "title": "Senior Software Engineer",
     "phone": "617.834.2644",
     "email": "rpitre@gmail.com",
     "address": {
@@ -43,11 +43,11 @@
   ],
   "skills": [
     "Java",
+    "Spring Boot",
     "C#",
     "JavaScript",
     "React",
     "React Native",
-    "Spring Boot",
     "AWS",
     ".NET Core",
     "SQL Server",
@@ -74,11 +74,31 @@
   ],
   "employers": [
     {
+      "id": "roostify",
+      "name": "Roostify",
+      "location": "Remote, US",
+      "experience": [
+        {
+          "project": "Roostify, Inc.",
+          "employerId": "roostify",
+          "title": "Senior Software Engineer",
+          "summary": "Worked as a Senior Software Engineer designing and developing third party integrations with the Roostify core SASS product to ensure Roostify stays the market leader in the digital home lending experience.",
+          "skills": [
+            "Java",
+            "Spring Boot",
+            "Microservices",
+            "TDD",
+            "BDD"
+          ],
+          "from": "2022",
+          "to": "present"
+        }
+      ]
+    },
+    {
       "id": "csv",
       "name": "Cognizant Softvision",
       "location": "Remote, US",
-      "from": "2021",
-      "to": "present",
       "experience": [
         {
           "project": "Discover Financial, Inc.",
@@ -95,7 +115,7 @@
             "BDD"
           ],
           "from": "2021",
-          "to": "Present"
+          "to": "2022"
         }
       ]
     },
