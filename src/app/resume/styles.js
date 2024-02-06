@@ -1,14 +1,9 @@
-import { Font, StyleSheet } from '@react-pdf/renderer';
+import { StyleSheet } from '@react-pdf/renderer';
 
-export const FONT_FAMILY_SANS = 'IBMPlexSans-Text';
-export const FONT_FAMILY_SANS_LIGHT = 'IBMPlexSans-Thin';
-export const FONT_FAMILY_ITALICS = 'IBMPlexSans-Italic';
-export const FONT_FAMILY_BOLD = 'IBMPlexSans-Bold';
-
-Font.register({ family: FONT_FAMILY_SANS, src: '/fonts/plex-sans/IBMPlexSans-Light.ttf' });
-Font.register({ family: FONT_FAMILY_SANS_LIGHT, src: '/fonts/plex-sans/IBMPlexSans-Light.ttf' });
-Font.register({ family: FONT_FAMILY_ITALICS, src: '/fonts/plex-sans/IBMPlexSans-Italic.ttf' });
-Font.register({ family: FONT_FAMILY_BOLD, src: '/fonts/plex-sans/IBMPlexSans-Bold.ttf' });
+export const FONT_FAMILY_SANS = 'Helvetica';
+export const FONT_FAMILY_SANS_LIGHT = 'Helvetica-Oblique';
+export const FONT_FAMILY_ITALICS = 'Helvetica-Oblique';
+export const FONT_FAMILY_BOLD = 'Helvetica-Bold';
 
 // Color
 export const COLOR_BG_PAGE = '#011b47';
@@ -26,8 +21,8 @@ export const SPACING_SMALL = 8;
 
 // Font sizes
 export const FONT_SIZE_LARGE = 26;
-export const FONT_SIZE_NORMAL = 11;
-export const FONT_SIZE_SMALL = 9;
+export const FONT_SIZE_NORMAL = 13;
+export const FONT_SIZE_SMALL = 10;
 
 export const styles = StyleSheet.create({
   page: {
@@ -44,6 +39,7 @@ export const styles = StyleSheet.create({
     color: COLOR_TEXT_DARK,
   },
   textMediumDarkBold: {
+    fontWeight: 700,
     fontSize: FONT_SIZE_NORMAL,
     fontFamily: FONT_FAMILY_BOLD,
     color: COLOR_TEXT_DARK,
@@ -59,6 +55,7 @@ export const styles = StyleSheet.create({
     color: COLOR_TEXT_DARK,
   },
   textSmallDarkBold: {
+    fontWeight: 700,
     fontSize: FONT_SIZE_SMALL,
     fontFamily: FONT_FAMILY_BOLD,
     color: COLOR_TEXT_DARK,
@@ -66,7 +63,6 @@ export const styles = StyleSheet.create({
   textSmallDarkThin: {
     fontSize: FONT_SIZE_SMALL,
     fontFamily: FONT_FAMILY_SANS_LIGHT,
-    fontWeight: 400,
     color: COLOR_TEXT_DARK,
   },
   textLargeLight: {

@@ -6,6 +6,7 @@ import { COLOR_BG_DARK, COLOR_BG_LIGHT, styles } from '../styles.js';
 const localStyles = StyleSheet.create({
   container: {
     marginBottom: 24,
+    textAlign: 'justify',
   },
   titleContainer: {
     marginBottom: 12,

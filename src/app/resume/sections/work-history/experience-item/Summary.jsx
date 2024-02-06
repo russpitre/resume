@@ -5,7 +5,7 @@ import { styles } from '../../../styles.js';
 
 const Summary = ({ summary }) => {
   return (
-    <View style={{ marginTop: 4 }}>
+    <View style={{ marginTop: 10 }}>
       <Text style={styles.textSmallDark}>{summary}</Text>
     </View>
   );

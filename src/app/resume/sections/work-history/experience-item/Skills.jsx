@@ -5,7 +5,7 @@ import { styles } from '../../../styles.js';
 
 const Skills = ({ skills }) => {
   return (
-    <View style={{ flexDirection: 'row', flexWrap: 'wrap', marginTop: 4 }}>
+    <View style={{ flexDirection: 'row', flexWrap: 'wrap', marginTop: 6 }}>
       <Text style={styles.textSmallDark}>Skills:{'  '}</Text>
       {skills.map((skill, index) => {
         const label = `${skill}${index < skills.length - 1 ? ', ' : ''}`;

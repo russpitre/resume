@@ -37,15 +37,13 @@
     "Biking",
     "Skiing",
     "DIY home projects",
-    "Tools",
-    "Gardening",
-    "Elixir"
+    "Gardening"
   ],
   "skills": [
     "Java",
     "Spring Boot",
     "C#",
-    "JavaScript",
+    "TypeScript",
     "React",
     "React Native",
     "AWS",
@@ -63,32 +61,37 @@
     "TDD",
     "BDD",
     "Github",
-    "JetBrains IDEs",
-    "Eclipse",
+    "JetBrains IDE",
     "UI/UX",
     "Linux",
     "CSS",
     "HTML5",
     "Docker",
-    "Agile"
+    "Kubernetes",
+    "Agile",
+    "Playwright"
   ],
   "employers": [
     {
-      "id": "roostify",
-      "name": "Roostify",
+      "id": "corelogic",
+      "name": "CoreLogic (formerly Roostify, Inc.)",
       "location": "Remote, US",
       "experience": [
         {
-          "project": "Roostify, Inc.",
-          "employerId": "roostify",
+          "project": "Digital Mortgage Platform",
+          "employerId": "corelogic",
           "title": "Senior Software Engineer",
-          "summary": "Worked as a Senior Software Engineer designing and developing third party integrations with the Roostify core SASS product to ensure Roostify stays the market leader in the digital home lending experience.",
+          "summary": "Worked as a Senior Software Engineer designing and developing third-party integrations for the Digital Mortgage Platform SASS product. Led the design and development of the user interface framework enabling customers to fully customize the mortgage loan application experience.",
           "skills": [
             "Java",
             "Spring Boot",
             "Microservices",
             "TDD",
-            "BDD"
+            "BDD",
+            "Kubernetes",
+            "React",
+            "TypeScript",
+            "DevOps"
           ],
           "from": "2022",
           "to": "present"
